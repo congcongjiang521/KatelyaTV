@@ -1,30 +1,290 @@
 {
   "cache_time": 7200,
   "api_site": {
-    "hnzy": {
-      "api": "https://hnzyapi.com/api.php/provide/vod",
-      "name": "火鸟资源",
-      "is_adult": false
+    "dyttzy": {
+      "api": "http://caij.dytzyapi.com/api.php/provide/vod",
+      "name": "电影天堂资源",
+      "detail": "http://caiji.dytzyapi.com"
     },
-    "lzzy": {
-      "api": "https://api.liangzizy.com/inc/apijson_vod.php",
-      "name": "量子资源",
-      "is_adult": false
+    "tvbox18": {
+      "api": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/qirenzhidao/tvbox18/main/app.json",
+      "name": "Tvbox18开源接口",
+      "detail": "https://github.com/qirenzhidao/tvbox18"
     },
-    "ffzy": {
-      "api": "https://ffzyapi.com/api.php/provide/vod",
-      "name": "非凡资源",
-      "is_adult": false
+    "youtube": {
+      "api": "https://developers.google.com/youtube/v3",
+      "name": "YouTube Data API",
+      "detail": "https://developers.google.com/youtube/v3"
     },
-    "ykzy": {
-      "api": "https://api.yongjiuzy.cc/provide/vod",
-      "name": "永久资源",
-      "is_adult": false
+    "vimeo": {
+      "api": "https://developer.vimeo.com/api",
+      "name": "Vimeo API",
+      "detail": "https://developer.vimeo.com"
     },
-    "bdzy": {
-      "api": "https://api.1080zyku.com/inc/apijson_vod.php",
-      "name": "百度资源",
-      "is_adult": false
+    "tmdb": {
+      "api": "https://api.themoviedb.org/3",
+      "name": "The Movie Database API",
+      "detail": "https://www.themoviedb.org/documentation/api"
+    },
+    "douban": {
+      "api": "https://www.free-api.com/doc/526",
+      "name": "豆瓣电影电视剧API",
+      "detail": "https://www.free-api.com/use/526"
+    },
+    "dailyvideo": {
+      "api": "https://www.free-api.com/doc/515",
+      "name": "每日视频API",
+      "detail": "https://www.free-api.com/doc/515"
+    },
+    "shortdrama": {
+      "api": "https://ai.dsyy.net/?type=api",
+      "name": "短剧内容API",
+      "detail": "https://blog.csdn.net/weixin_45716968/article/details/137350398"
+    },
+    "cckimi": {
+      "api": "https://cc.cckimi.top/api.php/provide/vod/?ac=list",
+      "name": "CCKIMI影视采集",
+      "detail": "https://cc.cckimi.top"
+    },
+    "wolongzy": {
+      "api": "http://wolongzy.net/api.php/provide/vod",
+      "name": "卧龙资源API",
+      "detail": "http://wolongzy.net"
+    },
+    "moyuer": {
+      "api": "http://我不是.摸鱼儿.com/api.php/provide/vod",
+      "name": "摸鱼儿接口",
+      "detail": "http://我不是.摸鱼儿.com"
+    },
+    "feimao": {
+      "api": "http://肥猫.com/api.php/provide/vod",
+      "name": "肥猫接口",
+      "detail": "http://肥猫.com"
+    },
+    "fantaiying": {
+      "api": "http://www.饭太硬.com/tv/api.php/provide/vod",
+      "name": "饭太硬接口",
+      "detail": "http://www.饭太硬.com/tv/"
+    },
+    "mysterious": {
+      "api": "http://fty.xxooo.cf/tv/api.php/provide/vod",
+      "name": "神秘哥哥接口",
+      "detail": "http://fty.xxooo.cf/tv/"
+    },
+    "kaixin": {
+      "api": "http://rihou.cc:55/api.php/provide/vod",
+      "name": "开心接口",
+      "detail": "http://rihou.cc:55"
+    },
+    "dongmancheng": {
+      "api": "https://www.yingm.cc/dm/dm.json",
+      "name": "动漫城接口",
+      "detail": "https://www.yingm.cc/dm/"
+    },
+    "pg": {
+      "api": "https://git.acwing.com/iduoduo/orange/-/raw/main/jsm.json",
+      "name": "PG接口",
+      "detail": "https://git.acwing.com/iduoduo/orange/"
+    },
+    "junlao": {
+      "api": "http://home.jundie.top:81/top98.json",
+      "name": "俊佬接口",
+      "detail": "http://home.jundie.top:81/"
+    },
+    "daochang": {
+      "api": "https://cdn.gitmirror.com/bb/xduo/libs/master/index.json",
+      "name": "道长接口",
+      "detail": "https://cdn.gitmirror.com/bb/xduo/libs/"
+    },
+    "baobox": {
+      "api": "http://mzjk.top/api.php/provide/vod",
+      "name": "宝盒接口",
+      "detail": "http://mzjk.top"
+    },
+    "wangxiaor": {
+      "api": "http://tvbox.王二小放牛娃.top/api.php/provide/vod",
+      "name": "王小二放牛娃接口",
+      "detail": "http://tvbox.王二小放牛娃.top"
+    },
+    "cainisi": {
+      "api": "https://tv.菜妮丝.top/api.php/provide/vod",
+      "name": "菜妮丝接口",
+      "detail": "https://tv.菜妮丝.top"
+    },
+    "hg": {
+      "api": "https://api.hgyx.vip/hgyx.json",
+      "name": "HG接口",
+      "detail": "https://api.hgyx.vip"
+    },
+    "dxawi": {
+      "api": "https://dxawi.github.io/0/0.json",
+      "name": "dxawi接口",
+      "detail": "https://dxawi.github.io"
+    },
+    "xiaosa": {
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json",
+      "name": "潇洒接口",
+      "detail": "https://github.com/PizazzGY/TVBox"
+    },
+    "xiaopingguo": {
+      "api": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json",
+      "name": "小苹果接口",
+      "detail": "https://bitbucket.org/xduo/duoapi"
+    },
+    "tianapi": {
+      "api": "https://www.tianapi.com/apiview/145",
+      "name": "影视资讯API",
+      "detail": "https://www.tianapi.com"
+    },
+    "juhe": {
+      "api": "https://www.juhe.cn/docs/api/id/94",
+      "name": "影视资源接口",
+      "detail": "https://www.juhe.cn"
+    },
+    "aa1": {
+      "api": "https://api.aa1.cn/doc/yingshi.html",
+      "name": "短剧影视API",
+      "detail": "https://api.aa1.cn"
+    },
+    "pingcc": {
+      "api": "http://api.pingcc.cn",
+      "name": "视频小说漫画API",
+      "detail": "https://easydoc.net/doc/45910076"
+    },
+    "iptvapi": {
+      "api": "https://github.com/Guovin/iptv-api",
+      "name": "IPTV直播源API",
+      "detail": "https://github.com/Guovin/iptv-api"
+    },
+    "398zy": {
+      "api": "https://mac.398zy.com/api.php/provide/vod",
+      "name": "398资源API",
+      "detail": "https://mac.398zy.com"
+    },
+    "pantady": {
+      "api": "https://www.pantady.com/api.php/provide/vod",
+      "name": "囡囡资源API",
+      "detail": "https://www.pantady.com"
+    },
+    "bbkdj": {
+      "api": "http://api.bbkdj.com/news",
+      "name": "步步高资讯API",
+      "detail": "http://api.bbkdj.com"
+    },
+    "iokzy": {
+      "api": "https://api.iokzy.com/inc/ldg_feifei.php",
+      "name": "IOKZY电影接口",
+      "detail": "https://api.iokzy.com"
+    },
+    "alapi": {
+      "api": "https://www.alapi.cn/",
+      "name": "ALAPI影视接口",
+      "detail": "https://www.alapi.cn"
+    },
+    "mxnzp": {
+      "api": "https://www.mxnzp.com/",
+      "name": "MXNZP视频解析API",
+      "detail": "https://www.mxnzp.com"
+    },
+    "apispace": {
+      "api": "https://www.apispace.com/movie-api",
+      "name": "APISpace电影API",
+      "detail": "https://www.apispace.com"
+    },
+    "showapi": {
+      "api": "http://route.showapi.com/1891-1",
+      "name": "ShowAPI影视资源",
+      "detail": "http://www.showapi.com"
+    },
+    "freeapi": {
+      "api": "https://www.free-api.com/",
+      "name": "FreeAPI聚合",
+      "detail": "https://www.free-api.com"
+    },
+    "publicapis": {
+      "api": "https://github.com/public-apis/public-apis",
+      "name": "Public APIs视频类",
+      "detail": "https://github.com/public-apis/public-apis"
+    },
+    "apihub": {
+      "api": "https://www.explinks.com/api",
+      "name": "API HUB影视",
+      "detail": "https://www.explinks.com"
+    },
+    "sojson": {
+      "api": "https://www.sojson.com/api",
+      "name": "SoJSON视频API",
+      "detail": "https://www.sojson.com"
+    },
+    "avatardata": {
+      "api": "https://www.avatardata.cn/Docs",
+      "name": "阿凡达数据影视",
+      "detail": "https://www.avatardata.cn"
+    },
+    "shenjianshou": {
+      "api": "https://www.shenjianshou.cn/api",
+      "name": "神箭手影视API",
+      "detail": "https://www.shenjianshou.cn"
+    },
+    "idataapi": {
+      "api": "http://www.idataapi.cn/api",
+      "name": "iDataAPI视频",
+      "detail": "http://www.idataapi.cn"
+    },
+    "apishop": {
+      "api": "https://www.apishop.net/api",
+      "name": "Apishop影视接口",
+      "detail": "https://www.apishop.net"
+    },
+    "baiduai": {
+      "api": "http://ai.baidu.com/api",
+      "name": "百度AI视频API",
+      "detail": "http://ai.baidu.com"
+    },
+    "facepp": {
+      "api": "http://www.faceplusplus.com.cn/api",
+      "name": "Face++视频处理",
+      "detail": "http://www.faceplusplus.com.cn"
+    },
+    "tuling": {
+      "api": "http://doc.tuling123.com/openapi2/api",
+      "name": "图灵机器人影视",
+      "detail": "http://doc.tuling123.com"
+    },
+    "lbsyun": {
+      "api": "http://lbsyun.baidu.com/api",
+      "name": "百度地图视频位置",
+      "detail": "http://lbsyun.baidu.com"
+    },
+    "iptvorg": {
+      "api": "https://iptv-org.github.io/iptv/index.m3u",
+      "name": "IPTV-org源",
+      "detail": "https://iptv-org.github.io/iptv"
+    },
+    "yuechan": {
+      "api": "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+      "name": "YueChan IPTV",
+      "detail": "https://github.com/YueChan/Live"
+    },
+    "joevess": {
+      "api": "https://raw.githubusercontent.com/joevess/IPTV/main/iptv.m3u8",
+      "name": "JoeVess IPTV",
+      "detail": "https://github.com/joevess/IPTV"
+    },
+    "freetv": {
+      "api": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
+      "name": "Free-TV IPTV",
+      "detail": "https://github.com/Free-TV/IPTV"
+    },
+    "vamoschuck": {
+      "api": "https://raw.githubusercontent.com/vamoschuck/TV/main/M3U",
+      "name": "Vamoschuck TV源",
+      "detail": "https://github.com/vamoschuck/TV"
+    },
+    "kimentanm": {
+      "api": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "name": "Kimentanm APTV",
+      "detail": "https://github.com/Kimentanm/aptv"
     }
   }
 }
